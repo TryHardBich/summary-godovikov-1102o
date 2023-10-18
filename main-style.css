@@ -74,20 +74,20 @@ a:hover{
     flex-direction: row;
     flex-wrap: wrap;
 }
-footer{
-    bottom: 0;
-    left: 0;
-    width:100%;
-    position: absolute;
-    text-align: center;
-}
-footer > .date {
-    bottom: 0;
-    width:100%;
-    position: absolute;
-    text-align: right;
-}
 footer > .hexlet > img {
     width: 15px;
     height: 15px;
+}
+footer > .date {
+    width:100%;
+    text-align: bottom,right;
+    color: rgb(0, 0, 0);
+}
+footer{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width:100%;
+    text-align: center;
 }

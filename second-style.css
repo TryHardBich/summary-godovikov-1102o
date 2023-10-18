@@ -22,19 +22,13 @@ ol > li{
     color:white;
 }
 hr {
-    height: 3px;
-    border-top: dashed;
-    color:white
+    border: 2px white dashed;
 }
 hr.manual {
-    height: 3px;
-    border-top: solid;
-    color:white;
+    border: 2px white solid;
 }
 hr.faq{
-    height: 4px;
-    border-top: double;
-    color:white;
+    border: 2px white dotted;
 }
 .logo {
     width: 50px;
@@ -55,7 +49,11 @@ span {
     padding-bottom: 16px;
     font-size: 0.85em;
 }
-body{background-color: rgb(26, 24, 29);}
+body{
+    background-color: rgb(26, 24, 29);
+    position: relative;
+    padding-bottom: 20px;
+}
 .comand {
     color: #0387f3;
 }
@@ -84,16 +82,15 @@ footer > .hexlet > img {
     height: 15px;
 }
 footer > .date {
-    bottom: 0;
     width:100%;
-    position: absolute;
-    text-align: right;
-    color: white;
+    text-align: bottom,right;
+    color: rgb(0, 0, 0);
 }
 footer{
+    background-color: beige;
+    position: absolute;
     bottom: 0;
     left: 0;
     width:100%;
-    position: absolute;
     text-align: center;
 }
