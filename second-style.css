@@ -55,13 +55,13 @@ body{
     padding-bottom: 20px;
 }
 .comand {
-    color: #0387f3;
+    color: #002fff;
 }
 .arg {
-    color: #00eeff;
+    color: #00f7ff;
 }
 .comma {
-    color: #0059ff;
+    color: #7700ff;
 }
 .htmllink > a {
     text-decoration: none;
@@ -84,10 +84,10 @@ footer > .hexlet > img {
 footer > .date {
     width:100%;
     text-align: bottom,right;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 footer{
-    background-color: beige;
+    background-color:rgb(26, 24, 29);
     position: absolute;
     bottom: 0;
     left: 0;
